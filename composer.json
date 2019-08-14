@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/Locaweb_Gateway",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "osl",
     "homepage": "",
-    "description": "O Gateway de Pagamento da Locaweb permite a integração de diversos meios de pagamentos na sua loja virtual.",
+    "description": "Correções em meios de pagamento",
     "authors": [
     {
         "name": "Locaweb",
