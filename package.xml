@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>Locaweb_Gateway</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>O Gateway de Pagamento da Locaweb permite a integra&#xE7;&#xE3;o de diversos meios de pagamentos na sua loja virtual.</summary>
+    <description>O Gateway de Pagamento da Locaweb &#xE9; um facilitador, que permite a contrata&#xE7;&#xE3;o e a integra&#xE7;&#xE3;o de diversos meios de pagamento em qualquer tipo de loja online.&#xD;
+&#xD;
+Atualmente, temos dois meios de pagamento dispon&#xED;veis na extension do Magento:&#xD;
+* Cielo Buy Page Loja (sem autentica&#xE7;&#xE3;o)&#xD;
+* Redecard Web Service&#xD;
+&#xD;
+Al&#xE9;m destes, estamos buscando colaboradores para desenvolver os seguintes meios de pagamento:&#xD;
+* Boletos (Santander, Ita&#xFA;, Caixa, HSBC, Bradesco e Banco do Brasil)&#xD;
+* Ita&#xFA; Shopline&#xD;
+* Redecard Komerci Integrado&#xD;
+* Cielo Buy Page Cielo&#xD;
+* Cielo Buy Page Loja (com autentica&#xE7;&#xE3;o)&#xD;
+&#xD;
+Se voc&#xEA; estiver interessado em colaborar com o desenvolvimento da extension, o reposit&#xF3;rio est&#xE1; dispon&#xED;vel no Github, na seguinte url: https://github.com/locaweb/gateway_magento.</description>
+    <notes>Corre&#xE7;&#xF5;es em meios de pagamento&#xD;
+&#xD;
+Atualmente, temos dois meios de pagamento dispon&#xED;veis na extension:&#xD;
+&#xD;
+* Cielo Buy Page Loja (sem autentica&#xE7;&#xE3;o)&#xD;
+* Redecard Web Service</notes>
+    <authors><author><name>Locaweb</name><user>locaweb</user><email>saas-dev@locaweb.com.br</email></author></authors>
+    <date>2012-10-19</date>
+    <time>15:53:07</time>
+    <contents><target name="magecommunity"><dir name="Locaweb"><dir name="Abstract"><dir name="Config"><file name="Cctype.php" hash="bfc9fd031cf7357fb426cf8b8aff15bf"/><file name="Parceltype.php" hash="d0cd2f5dd62c44b8617f5a3389053f6b"/></dir><dir name="Model"><dir name="Payment"><dir name="Method"><file name="Cc.php" hash="7caa7f717867a481e5e2d3096caf6379"/></dir></dir></dir></dir><dir name="CieloBuyLoja"><dir name="Block"><dir name="Form"><file name="Cc.php" hash="3e5849dc322c7078f8885e0ee6c297f2"/></dir></dir><dir name="Config"><file name="Cctype.php" hash="5ae06f93bb4aae2b574c1f4805baafe4"/></dir><dir name="Helper"><file name="Data.php" hash="ee1f59db5830572a72795453ae01a9ce"/></dir><dir name="Model"><file name="Transaction.php" hash="31419aacb716199344bb2f38a5c6e062"/></dir><dir name="etc"><file name="config.xml" hash="340618f85e07339b07407ecdbe9a1c7a"/><file name="system.xml" hash="9dd3909b96959b257eed078080c4258d"/></dir></dir><dir name="RedeCardWS"><dir name="Block"><dir name="Form"><file name="Cc.php" hash="bca9a9e131a6474c83c0db98938ce4fb"/></dir></dir><dir name="Config"><file name="Cctype.php" hash="22417a736b9d221f0cba98e5460c9aee"/></dir><dir name="Helper"><file name="Data.php" hash="71b47a6f927431a976e4ad7b7e6d8a83"/></dir><dir name="Model"><file name="Transaction.php" hash="054b2ea6b3fcc13088e88985115e01e6"/></dir><dir name="etc"><file name="config.xml" hash="a40004df4b7fd042e583ec6267a7db55"/><file name="system.xml" hash="8c1c3c9b468645474947160d007075cb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Locaweb_CieloBuyLoja.xml" hash="5c81993759047a9829b3b78424bf59a4"/><file name="Locaweb_RedecardWS.xml" hash="225d101fca4c4fa09ea3f3a3d4895cae"/></dir></target><target name="magelocale"><dir name="pt_BR"><file name="Locaweb_Gateway.csv" hash="acefe4130e9aee0a18d1945be634043f"/></dir></target><target name="magelib"><dir name="LocawebGateway"><file name="LocawebGateway.php" hash="e3354e104dedabf5f1a98afce709caec"/><file name="LocawebGatewayConfig.inc.php" hash="86bc0538d9716d98a9101b22991273a1"/><file name="LocawebGatewayPayment.php" hash="d32dcca070b9e47dd7395f4d91a6456d"/><file name="LocawebGatewayProcessor.php" hash="5af81c01ce4829dda6c9fd2e4cb12f0a"/><file name="LocawebGatewayRequest.php" hash="75a8a17a65e539c9d230ef8c3741fb3b"/><file name="SimpleRestClient.php" hash="906af2d14a9cdf9e68dfc1499977b0ba"/><file name=".DS_Store" hash="fe95c3663a0bce608c3a05050f085fce"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="abstract"><dir name="form"><file name="cc.phtml" hash="99927cd67e61e69abe0d421e6c010882"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.3</min><max>5.3.3</max></php></required></dependencies>
+</package>
