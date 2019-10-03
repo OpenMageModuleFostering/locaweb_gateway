@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Locaweb_Gateway",
+    "name": "OpenMageModuleFostering\/Locaweb_Gateway",
     "type": "magento-module",
     "license": "osl",
     "homepage": "",
-    "description": "Correções em meios de pagamento",
+    "description": "Corre\u00e7\u00f5es em meios de pagamento",
     "authors": [
-    {
-        "name": "Locaweb",
-        "email": "saas-dev@locaweb.com.br"
-    }
-],
+        {
+            "name": "Locaweb",
+            "email": "saas-dev@locaweb.com.br"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
