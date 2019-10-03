@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Locaweb_Gateway",
+    "name": "openmage-module-fostering\/locaweb_gateway",
     "type": "magento-module",
-    "license": "osl",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Corre\u00e7\u00f5es em meios de pagamento",
     "authors": [
